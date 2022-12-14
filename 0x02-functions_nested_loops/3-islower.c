@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Check Holberton
+ * _islower - Check _putchar
  * @c: An input character
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
@@ -14,7 +14,7 @@ int _islower(int c)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if(i == c)
+		if (i == c)
 			low = 1;
 	}
 	return (low);
