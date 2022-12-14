@@ -11,7 +11,7 @@ int print_sign(int n)
 {
 	int v;
 
-	if (n >1)
+	if (n > 1)
 	{
 		v = 1;
 		_putchar('+');
