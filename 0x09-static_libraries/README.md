@@ -214,6 +214,9 @@ julien@ubuntu:~/0x09. Static Librairies$ ls *.c
 julien@ubuntu:~/0x09. Static Librairies$ ./create_static_lib.sh 
 julien@ubuntu:~/0x09. Static Librairies$ ls *.a
 liball.a
+
+ar -rc liball.a *.o
+
 julien@ubuntu:~/0x09. Static Librairies$ ar -t liball.a
 0-isupper.o
 0-memset.o
