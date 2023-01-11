@@ -233,7 +233,7 @@ julien@ubuntu:~/0x09. Static Librairies$ ar -t liball.a
 _putchar.o
 julien@ubuntu:~/0x09. Static Librairies$ 
 
-ar dv liblaryname.a objectfile.o
+ar dv libmy.a *.o
 clear
 
 gcc -fno-pie -c *.c
